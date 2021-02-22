@@ -9,7 +9,7 @@ const toolbar = (props) => (
             <Logo />
             </div>
             <nav>
-                <NavigationItems /> 
+                <NavigationItems  isAuthenticate={props.isAuth}/> 
             </nav>
         </header>
 );
