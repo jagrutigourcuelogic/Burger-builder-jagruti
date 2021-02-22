@@ -21,6 +21,8 @@ const order = (props) => {
     })
 return (
    <div className={classes.Order}>
+        <p>Customer Name : {props.orderBy} </p>
+        <p>Customer's Email : {props.orderByEmail}</p>
         <p> Ingredients : {ingredientOutput}</p>
         <p>Price: <strong>{Number.parseFloat(props.price)}</strong></p>
    </div>
